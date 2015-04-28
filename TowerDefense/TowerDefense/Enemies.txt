@@ -1,0 +1,7 @@
+{
+  "name": "base enemy",
+  "minHealth": 20,
+  "maxHealth": 30,
+  "resists": ["cold", "poison"],
+  "weaknesses": ["fire", "light"]
+}
