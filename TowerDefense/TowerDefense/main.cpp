@@ -1,13 +1,15 @@
 #include <SFML/Graphics.hpp>
 #include "Defines.h"
 
-#include <vld.h>
+//#include <vld.h>
 #include "GameState.h"
 
 
 int main()
 {
-    // create the window
+	std::cout << "Testing" << std::endl;
+   
+	// create the window
 	sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "My window");
 	window->setFramerateLimit(60);
 
